@@ -3,11 +3,18 @@
  * Mail: matteo.gatti@codinglab.it
  */
 export default class HomeController {
-    constructor() {
+    constructor(randomNames) {
+        this.random = randomNames;
         this.name = 'Home';
     }
 
     changeName() {
         this.name = 'Codinglab';
     }
+
+    randomName() {
+        this.name = this.random.getName();
+    }
 }
+
+HomeController.$inject = ['randomNames'];
