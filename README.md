@@ -6,7 +6,7 @@ A simple example that implements AngularJS 1.5.x with Webpack, Babel and ECMAScr
 How-to
 ======
 1. update dependencies `npm install`
-2. build a bundle `webpack`
+2. build a bundle `node_modules\.bin\webpack.cmd`
 3. start server and enjoy the example `npm .`
 
 References
